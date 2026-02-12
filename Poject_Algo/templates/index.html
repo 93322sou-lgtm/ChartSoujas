@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soujas Algo System</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 
-    <script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
     <style>
         #Soujas {
-            color: blue;
+            color: rgb(240, 240, 255);
         }
     </style>
 </head>
+
 <body>
-    <div id="Soujas"> Algo Machine Soujas </div>
-    <div id="container"></div>
-
-    <script src="{{ url_for('static', filename='chart.js') }}"></script>
-
+    <div id="Soujas">
+        <h1>Algo Machine Soujas</h1>
+    </div>
     <script>
         document.getElementById("Soujas").style.color = "blue";
     </script>
 </body>
+
 </html>
